@@ -60,10 +60,7 @@ $(document).ready(function() {
     var highArray = [];
     var medArray = [];
     var lowArray = [];
-    // var addTask = $('.work-list').append("<li>" + work.description +
-    // "<ul><li>" + "Priority: " + work.priority + "</li>" +
-    // "<li>" + "Assigned to: " +  work.assignedTo + "</li>" +
-    // "<li>" + "Due Date: " + work.dueDate + "</li></ul></li>");
+
     workTodo.forEach(function(work) {
       $('.work-list').empty();
       if (work.priority === "High") {
@@ -94,20 +91,5 @@ $(document).ready(function() {
       "<li>" + "Due Date: " + temp.dueDate + "</li></ul></li>");
     });
 
-
-
-
-
-    $('.work-input').val("");
-
-
-
-
-    // var addTask = $('.work-list').append("<li>" + workTodo[workTodo.length-1].description +
-    //                         "<ul><li>" + "Priority: " + workTodo[workTodo.length-1].priority + "</li>" +
-    //                         "<li>" + "Assigned to: " +  workTodo[workTodo.length-1].assignedTo + "</li>" +
-    //                         "<li>" + "Due Date: " + workTodo[workTodo.length-1].dueDate + "</li></ul></li>");
   });
-
-
 });
