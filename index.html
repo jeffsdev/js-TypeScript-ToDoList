@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To Do</title>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/main.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+  </head>
+  <body>
+    <div class="task-buttons">
+      <button class="hobby-btn btn" type="button" name="button">Hobby Task</button>
+      <button class="work-btn btn" type="button" name="button">Work Task</button>
+      <button class="home-btn btn" type="button" name="button">Home Task</button>
+    </div>
+
+    <div class="task-forms">
+      <!-- hobby form -->
+      <form class="hobbyForm">
+        <label>Enter a description of the task:</label>
+        <input class="hobby-input" type="text" name="name" value="">
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <!-- work form -->
+      <form class="workForm">
+        <select class="due-date" name="">
+          <option value="today">Today</option>
+          <option value="tomorrow">Tomorrow</option>
+          <option value="nextDay">Day After</option>
+        </select>
+        <label>Enter a description of the task:</label>
+        <input type="text" name="name" value="">
+        <label>Person assigned to this task:</label>
+        <select class="person-assigned" name="">
+          <option value="diane">Diane</option>
+          <option value="thor">Thor</option>
+          <option value="loki">Loki</option>
+        </select>
+        <label>Priority:</label>
+        <input type="radio" name="name" value="low">Low
+        <input type="radio" name="name" value="medium">Medium
+        <input type="radio" name="name" value="high">High
+        <button type="submit" name="button"></button>
+      </form>
+      <!-- home form -->
+      <form class="homeForm">
+        <select class="due-date" name="">
+          <option value="today">Today</option>
+          <option value="tomorrow">Tomorrow</option>
+          <option value="nextDay">Day After</option>
+        </select>
+        <label>Enter a description of the task:</label>
+        <input type="text" name="name" value="">
+        <label>Person assigned to this task:</label>
+        <select class="person-assigned" name="">
+          <option label=""> -- Nobody -- </option>
+          <option value="diane">Diane</option>
+          <option value="thor">Thor</option>
+          <option value="loki">Loki</option>
+        </select>
+        <label>Priority:</label>
+        <input type="radio" name="name" value="low">Low
+        <input type="radio" name="name" value="medium">Medium
+        <input type="radio" name="name" value="high">High
+        <button type="submit" name="button">Submit </button>
+      </form>
+    </div>
+
+
+    <div class="to-do-lists">
+      <div class="hobby-list">
+        <h3>Hobby Tasks</h3>
+        <ul>
+        </ul>
+      </div>
+
+      <div class="work-list">
+        <h3>Work Tasks</h3>
+        <ul>
+        </ul>
+      </div>
+
+      <div class="home-list">
+        <h3>Home Tasks</h3>
+        <ul>
+        </ul>
+      </div>
+    </div>
+
+
+  </body>
+</html>
