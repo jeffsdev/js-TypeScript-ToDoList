@@ -24,45 +24,42 @@
       </form>
       <!-- work form -->
       <form class="workForm">
+        <label>Enter a description of the task:</label>
+        <input class="work-desc" type="text" name="name" value="">
+        <label>Priority:</label>
+        <input type="radio" name="priority" value="low">Low
+        <input type="radio" name="priority" value="medium">Medium
+        <input type="radio" name="priority" value="high">High
         <select class="due-date" name="">
           <option value="today">Today</option>
           <option value="tomorrow">Tomorrow</option>
           <option value="nextDay">Day After</option>
         </select>
-        <label>Enter a description of the task:</label>
-        <input type="text" name="name" value="">
         <label>Person assigned to this task:</label>
         <select class="person-assigned" name="">
           <option value="diane">Diane</option>
           <option value="thor">Thor</option>
           <option value="loki">Loki</option>
         </select>
-        <label>Priority:</label>
-        <input type="radio" name="name" value="low">Low
-        <input type="radio" name="name" value="medium">Medium
-        <input type="radio" name="name" value="high">High
-        <button type="submit" name="button"></button>
+        <button type="submit" name="button">Submit</button>
       </form>
       <!-- home form -->
       <form class="homeForm">
-        <select class="due-date" name="">
-          <option value="today">Today</option>
-          <option value="tomorrow">Tomorrow</option>
-          <option value="nextDay">Day After</option>
-        </select>
         <label>Enter a description of the task:</label>
-        <input type="text" name="name" value="">
+        <input class="home-desc"type="text" name="name" value="">
+
+        <label>Priority:</label>
+        <input type="radio" name="priority" value="low">Low
+        <input type="radio" name="priority" value="medium">Medium
+        <input type="radio" name="priority" value="high">High
+
         <label>Person assigned to this task:</label>
         <select class="person-assigned" name="">
-          <option label=""> -- Nobody -- </option>
+          <option value=""> -- Nobody -- </option>
           <option value="diane">Diane</option>
           <option value="thor">Thor</option>
           <option value="loki">Loki</option>
         </select>
-        <label>Priority:</label>
-        <input type="radio" name="name" value="low">Low
-        <input type="radio" name="name" value="medium">Medium
-        <input type="radio" name="name" value="high">High
         <button type="submit" name="button">Submit </button>
       </form>
     </div>

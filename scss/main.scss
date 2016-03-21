@@ -8,11 +8,15 @@ body {
   margin: 0 20px;
 }
 
-.hobbyForm {
+.hobbyForm,
+.homeForm,
+.workForm {
   margin-top: 50px;
 }
 
 .workForm,
-.homeForm {
+.hobbyForm,
+.homeForm
+{
   display: none;
 }
